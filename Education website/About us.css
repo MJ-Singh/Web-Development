@@ -1,0 +1,105 @@
+body {
+  position: relative;
+}
+body {font-family: Verdana,sans-serif;}
+#about1 {
+  padding-top:100px;
+  height:auto;
+  color: #e6e6e6;
+  background-color: #2bb6c6;
+}
+#about2 {
+  padding-top:50px;
+  border-bottom: 2px solid #2bb6c6; 
+  height:auto;
+  color: #1E88E5;
+  background-color: #e6e6e6;
+}
+#about3 {
+  padding-top:50px;
+  padding-bottom:260px;
+  height:auto;
+  color: #272727;
+  background-color: #e6e6e6;
+}
+.col-md-8 p{
+    font-size: medium;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+
+/* our team */
+*{
+  box-sizing: border-box;
+  margin:auto;
+}
+.jcontainer{
+  margin: 30px auto;
+  overflow: hidden;
+  text-align: center;
+  width: 94%;
+}
+.text{
+  background: white;
+  min-height: 277px;
+  padding: 15px 5px 10px 5px;
+  position: absolute;
+  top: 267px;
+  width: 200px;
+  z-index: 2;
+  display: none;
+  transition: all .4s ease-in-out;
+}
+
+.contain{
+  width: 200px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.contain img{
+  height: 267px;
+  display: block;
+  width: 200px;
+  transition: all .1s ease-in-out;
+}
+.co img{
+  height: 267px;
+  display: block;
+  width: 267px;
+  transition: all .1s ease-in-out;
+}
+.cen{
+  width: 200px;
+  display: inline-block;
+  margin: 0 15px 15px 0;
+  min-height: 267px;
+  position: relative;
+}
+.cen:hover > .text{
+  display: block;
+  transform: scale(1.1);
+}
+.cen:hover > .contain > img{
+  transform: scale(1.1);
+  box-shadow: 0px 0px 150px #000000;
+}
+/* footer */
+
+footer{
+  background-color: #272727;
+  color: grey;
+  padding: 32px;
+}
+footer h3{
+  font-size: 16px;
+  color: white;
+}
+footer p{
+  font-size: 12px;
+}
+footer p:hover{
+  color: #2bb6c6;
+  cursor: pointer;
+}
